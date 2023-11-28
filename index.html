@@ -1,16 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="device-width, initial-scale=1.0" />
     <title>My Portfolio Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="header">
-      <h1>Sheryl Chee</h1>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">s h e r y l _ c h e e</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">WORK</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid bg-1 text-center">
+      <h3>I am Sheryl Chee.</h3>
+      <img
+        src="./images/sheryl.jpg"
+        class="img-circle"
+        alt="Sheryl"
+        width="150px"
+        height="150px"
+      />
+      <h3>Software Developer | Audio Engineer</h3>
     </div>
-    <div id="main"></div>
-    <footer></footer>
-    <script src="script.js"></script>
+
+    <div class="container-fluid bg-2 text-center">
+      <h3>About</h3>
+      <p>Lorem ipsum..</p>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+      <h3>Past & Present Work</h3>
+      <div class="row">
+        <div class="col-sm-4">
+          <p>Lorem ipsum..</p>
+          <img src="birds1.jpg" alt="Image" />
+        </div>
+        <div class="col-sm-4">
+          <p>Lorem ipsum..</p>
+          <img src="birds2.jpg" alt="Image" />
+        </div>
+        <div class="col-sm-4">
+          <p>Lorem ipsum..</p>
+          <img src="birds3.jpg" alt="Image" />
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid bg-4 text-center">
+      <p>
+        Website Created By Sheryl Chee<br />
+        <a href="https://www.w3schools.com">www.w3schools.com</a>
+      </p>
+    </footer>
   </body>
 </html>
