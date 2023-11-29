@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My Portfolio Website</title>
+    <title>Sheryl Chee</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="device-width, initial-scale=1.0" />
     <link
@@ -30,12 +30,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">s h e r y l _ c h e e</a>
+          <a class="navbar-brand" href="#"
+            ><strong>s h e r y l _ c h e e</strong></a
+          >
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">WORK</a></li>
+            <li><a href="#">ABOUT ME</a></li>
+            <li><a href="#">SKILLS & EXPERIENCE</a></li>
+            <li><a href="#">GALLERY</a></li>
             <li><a href="#">CONTACT</a></li>
           </ul>
         </div>
@@ -55,12 +58,30 @@
     </div>
 
     <div class="container-fluid bg-2 text-center">
-      <h3>About</h3>
-      <p>Lorem ipsum..</p>
+      <h3>About Me</h3>
+      <div class="row">
+        <div class="col-sm-4 text-right">
+          <img
+            src="./images/about me photo.jpg"
+            class="img-thumbnail"
+            alt="guitar"
+          />
+        </div>
+        <div class="col-sm-8 text-left about-me-paragraph">
+          <p>
+            I'm a Software Developer by day and a Sound Engineer by night.<br /><br />
+            A versatile professional with experience in both product management
+            and live sound engineering. With a passion for innovation and an ear
+            for music, my diverse background allows me to approach
+            problem-solving from multiple perspectives and enables me to excel
+            in both technical and creative fields.
+          </p>
+        </div>
+      </div>
     </div>
 
     <div class="container-fluid bg-3 text-center">
-      <h3>Past & Present Work</h3>
+      <h3>Skills & Experience</h3>
       <div class="row">
         <div class="col-sm-4">
           <p>Lorem ipsum..</p>
@@ -77,11 +98,71 @@
       </div>
     </div>
 
+    <div class="container-fluid bg-2 text-center">
+      <h3>Gallery</h3>
+      <div class="row">
+        <div class="col-sm-4">
+          <p>Lorem ipsum..</p>
+          <img src="birds1.jpg" alt="Image" />
+        </div>
+        <div class="col-sm-4">
+          <p>Lorem ipsum..</p>
+          <img src="birds2.jpg" alt="Image" />
+        </div>
+        <div class="col-sm-4">
+          <p>Lorem ipsum..</p>
+          <img src="birds3.jpg" alt="Image" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+      <h3>Contact</h3>
+
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="user">Name:</label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+
+            <div class="form-group">
+              <label for="services">Enquiry:</label>
+              <select class="form-control" id="sel1">
+                <option>Guitar Lessons</option>
+                <option>Pro Tools Lessons</option>
+                <option>Web Development</option>
+                <option>Sound Engineer</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="details">Details:</label>
+              <input
+                class="form-control inputdefault"
+                id="inputdefault"
+                type="text"
+                placeholder="Pls provide more information."
+              />
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="submit">
+              Submit
+            </button>
+          </form>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+    </div>
+
     <footer class="container-fluid bg-4 text-center">
-      <p>
-        Website Created By Sheryl Chee<br />
-        <a href="https://www.w3schools.com">www.w3schools.com</a>
-      </p>
+      <p>Website Created By Sheryl Chee</p>
     </footer>
   </body>
 </html>
