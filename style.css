@@ -19,6 +19,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
 
 .container-fluid {
   padding-top: 70px;
@@ -83,6 +86,10 @@ img[alt="guitar"] {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+h3.educationexperience {
+  text-align: center;
+}
+
 #resume {
   padding: 40px 100px;
   text-align: left;
@@ -144,4 +151,27 @@ img[alt="guitar"] {
   top: 0;
   background: #fff;
   border: 2px solid #1abc9c;
+}
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+div.scroll-container {
+  background-color: 474e5d;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+img[alt="Reece Mastin"],
+img[alt="Paton Place"],
+img[alt="Wedding Gig"],
+img[alt="Drums"],
+img[alt="Rig"] {
+  width: 500px;
+  height: auto;
 }
