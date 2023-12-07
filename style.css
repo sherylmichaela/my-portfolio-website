@@ -175,3 +175,8 @@ img[alt="Rig"] {
   width: 500px;
   height: auto;
 }
+
+.form-group {
+  width: 80%;
+  margin: auto;
+}
