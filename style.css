@@ -8,12 +8,16 @@
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 5px;
 }
 
 .navbar-nav li a:hover {
   color: #1abc9c !important;
+}
+
+.navbar-brand {
+  font-weight: 500;
 }
 
 /*--------------------------------------------------------------
@@ -31,6 +35,7 @@ html {
 .bg-1 {
   background-color: #1abc9c; /* Green */
   color: #ffffff;
+  padding-top: 140px;
 }
 
 .bg-2 {
@@ -48,7 +53,7 @@ html {
 }
 
 body {
-  font: 20px "Montserrat", sans-serif;
+  font: 18px "Montserrat", sans-serif;
   line-height: 1.8;
   color: #f5f6f7;
 }
@@ -57,30 +62,30 @@ s p {
 }
 
 h3 {
+  font-size: 35px;
   margin-bottom: 40px;
 }
 
+img[alt="Sheryl"] {
+  width: 150px;
+  height: 150px;
+}
+
 /*--------------------------------------------------------------
-# Navigation
+# About Me
 --------------------------------------------------------------*/
 
 img[alt="guitar"] {
-  width: 250px;
+  width: 300px;
   height: auto;
-
-  margin-right: 10px;
 }
 
 .about-me-paragraph {
-  padding-right: 100px;
+  padding-right: 250px;
 }
 
-.form-inline {
-  text-align: left;
-}
-
-#submit {
-  margin-top: 20px;
+.about-me-paragraph > ul {
+  margin-bottom: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -96,10 +101,10 @@ h3.educationexperience {
 }
 
 .resume .resume-title {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   color: #050d18;
 }
 
@@ -176,7 +181,14 @@ img[alt="Rig"] {
   height: auto;
 }
 
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
 .form-group {
-  width: 80%;
-  margin: auto;
+  width: 90%;
+  margin: 20px auto;
+}
+
+#submit {
+  margin-top: 20px;
 }

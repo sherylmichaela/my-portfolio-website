@@ -8,7 +8,6 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
-
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
       rel="stylesheet"
@@ -30,9 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"
-            ><strong>s h e r y l _ c h e e</strong></a
-          >
+          <a class="navbar-brand" href="#">s h e r y l _ c h e e</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
@@ -51,13 +48,7 @@
 
     <div class="container-fluid bg-1 text-center">
       <h3>I am Sheryl Chee.</h3>
-      <img
-        src="./images/sheryl.jpg"
-        class="img-circle"
-        alt="Sheryl"
-        width="150px"
-        height="150px"
-      />
+      <img src="./images/sheryl.jpg" class="img-circle" alt="Sheryl" />
       <h3>Software Developer | Audio Engineer</h3>
     </div>
 
@@ -77,18 +68,27 @@
         </div>
         <div class="col-sm-8 text-left about-me-paragraph">
           <p>
+            <em
+              >A versatile professional with experience in both product
+              management and live sound engineering. With a passion for
+              innovation and an ear for music, my diverse background allows me
+              to approach problem-solving from multiple perspectives and enables
+              me to excel in both technical and creative fields.</em
+            >
+          </p>
+          <ul>
+            <li>Sheryl Hui Ping Chee</li>
+            <li>1103/5-7 Northumberland Road, Auburn NSW 2144</li>
+            <li>+61 413 689 413</li>
+            <li>sherylmichaela@gmail.com</li>
+          </ul>
+          <p>
             A Singaporean transplant now settled in Sydney, I bring a fusion of
             cultural perspectives and a diverse skill set to my pursuits.
             Passionate about the intersection of audio, music, and programming,
             I embody a unique blend of technical prowess and creative fervor. My
             journey from Singapore to Sydney has not only broadened my horizons
             but also deepened my commitment to merging technology with artistry.
-          </p>
-          <p>
-            With a relentless drive to marry my passions for audio, music, and
-            programming, I seek to carve a path that not only defines my
-            professional trajectory but also contributes meaningfully to the
-            industries I am passionate about.
           </p>
         </div>
       </div>
@@ -101,25 +101,6 @@
       <section id="resume" class="resume">
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Summary</h3>
-            <div class="resume-item pb-0">
-              <h4>Sheryl Hui Ping Chee</h4>
-              <p>
-                <em
-                  >A versatile professional with experience in both product
-                  management and live sound engineering. With a passion for
-                  innovation and an ear for music, my diverse background allows
-                  me to approach problem-solving from multiple perspectives and
-                  enables me to excel in both technical and creative fields.</em
-                >
-              </p>
-              <ul>
-                <li>1103/5-7 Northumberland Road, Auburn NSW 2144</li>
-                <li>+61 413 689 413</li>
-                <li>sherylmichaela@gmail.com</li>
-              </ul>
-            </div>
-
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>Software Engineering : Transform</h4>
@@ -234,10 +215,18 @@
         <a href="./images/test1.jpg" target="_blank"
           ><img src="./images/test1.jpg" alt="Reece Mastin"
         /></a>
-        <img src="./images/test2.jpg" alt="Paton Place" />
-        <img src="./images/test3.jpg" alt="Wedding Gig" />
-        <img src="./images/test4.jpg" alt="Drums" />
-        <img src="./images/test5.jpg" alt="Rig" />
+        <a href="./images/test2.jpg" target="_blank"
+          ><img src="./images/test2.jpg" alt="Paton Place"
+        /></a>
+        <a href="./images/test3.jpg" target="_blank"
+          ><img src="./images/test3.jpg" alt="Wedding Gig"
+        /></a>
+        <a href="./images/test4.jpg" target="_blank"
+          ><img src="./images/test4.jpg" alt="Drums"
+        /></a>
+        <a href="./images/test5.jpg" target="_blank"
+          ><img src="./images/test5.jpg" alt="Rig"
+        /></a>
       </div>
     </div>
 
@@ -273,12 +262,13 @@
 
             <div class="form-group">
               <label for="details">Details:</label>
-              <input
-                class="form-control inputdefault"
+              <textarea
+                class="form-control"
                 id="inputdefault"
                 type="text"
                 placeholder="Pls provide more information."
-              />
+                rows="5"
+              ></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary" id="submit">
